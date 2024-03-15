@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/sushi.png" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Wavish World</title>
+  </head>
+  <body>
+    <header>
+      <nav class="header__nav">
+        <div class="header__logo">
+          <h4 data-aos="fade-down">Wavish World</h4>
+          <div class="header__logo-overlay"></div>
+        </div>
+
+        <ul class="header__menu" data-aos="fade-down">
+          <li>
+            <a href="#menu">Goals</a>
+          </li>
+          <li>
+            <a href="#food">Fields</a>
+          </li>
+          <li>
+            <a href="#services">Services</a>
+          </li>
+          <li>
+            <a href="#about-us">About Us</a>
+          </li>
+          <li>
+            <img src="assets/search.svg" alt="search" />
+          </li>
+        </ul>
+
+        <ul class="header__menu-mobile" data-aos="fade-down">
+          <li>
+            <img src="assets/menu.svg" alt="menu" />
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero-image">
+        <img 
+          src="assets/wavish_logo.png"
+          alt="sushi"
+          data-aos="fade-up"
+        />
+        <!-- <h2 data-aos="fade-up">
+          日 <br />
+          本 <br />
+          食
+        </h2> -->
+
+        <div class="hero-image__overlay"></div>
+      </div>
+
+      <div class="hero-content">
+        <div class="hero-content-info" data-aos="fade-left">
+          <h1>Wavish v1.0</h1>
+          <p>Wavish World is lauching as soon as 2025.</p>
+
+          <div class="hero-content__buttons">
+            <button class="hero-content__order-button">Coming Soon</button>
+            <button class="hero-content__play-button">
+              <!-- <img src="assets/play-circle.svg" alt="play" /> -->
+
+            </button>
+          </div>
+        </div>
+
+        <div class="hero-content__testimonial" data-aos="fade-up">
+          <div class="hero-content__customer flex-center">
+            <h4>10<span>k+</span></h4>
+            <p>Happy Trial Users</p>
+          </div>
+
+          <div class="hero-content__review">
+            <img src="assets/user.png" alt="user" />
+            <p>"This is something actually cool and useful!"</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-us" id="about-us">
+      <div class="about-us__image">
+        <div class="about-us__image-sushi3">
+          <img src="assets/openai.svg" alt="sushi" data-aos="fade-right" />
+        </div>
+
+        <button class="about-us__button">
+          Collaborating with
+
+          <img src="assets/arrow-up-right.svg" alt="learn more" />
+        </button>
+
+        <div class="about-us__image-sushi2">
+          <img src="assets/microsoft.svg" alt="sushi"  data-aos="fade-right" />
+        </div>
+      </div>
+
+      <div class="about-us__content"  data-aos="fade-left">
+        <p class="sushi__subtitle">About Us</p>
+        <h3 class="sushi__title">Our mission is to build a world where AI is used to solve problems, even by a kid.</h3>
+        <p class="sushi__description">We are now using current AI technology to interpret the data around us in meaningful way. Join Us!
+        </p>
+      </div>
+    </section>
+
+    <section class="popular-foods" id="menu">
+      <h2 class="popular-foods__title" data-aos="flip-up">Team Members</h2>
+
+      <!-- <div class="popular-foods__filters sushi__hide-scrollbar" data-aos="fade-up">
+        <button class="popular-foods__filter-btn active">All</button>
+        <button class="popular-foods__filter-btn">
+          <img src="/assets/sushi-9.png" alt="sushi 9" />
+          Sushi
+        </button>
+        <button class="popular-foods__filter-btn">
+          <img src="/assets/sushi-8.png" alt="sushi 8" />
+          Ramen
+        </button>
+        <button class="popular-foods__filter-btn">
+          <img src="/assets/sushi-7.png" alt="sushi 7" />
+          Udon
+        </button>
+        <button class="popular-foods__filter-btn">
+          <img src="/assets/sushi-6.png" alt="sushi 6" />
+          Danggo
+        </button>
+        <button class="popular-foods__filter-btn">All</button>
+      </div> -->
+
+      <div class="popular-foods__catalogue" data-aos="fade-up">
+        <article class="popular-foods__card">
+          <img class="popular-foods__card-image" src="assets/ml_head.png" alt="sushi-12" />
+          <h4 class="popular-foods__card-title">Crisha Paragas, ML Head</h4>
+
+          <div class="popular-foods__card-details flex-between">
+            <div class="popular-foods__card-rating">
+              <img src="assets/star.svg" alt="star" />
+              <p>4.9</p>
+            </div>
+
+            <p class="popular-foods__card-price">$21.00</p>
+          </div>
+        </article>
+
+        <article class="popular-foods__card active-card">
+          <img class="popular-foods__card-image" src="assets/ceo_wavish.png" alt="sushi-11" />
+          <h4 class="popular-foods__card-title">Josh Santos, CEO</h4>
+          
+          <div class="popular-foods__card-details flex-between">
+            <div class="popular-foods__card-rating">
+              <img src="assets/star.svg" alt="star" />
+              <p>5.0</p>
+            </div>
+            
+            <p class="popular-foods__card-price">$19.00</p>
+          </div>
+        </article>
+
+        <article class="popular-foods__card">
+          <img class="popular-foods__card-image" src="assets/advisor_wavish.jpeg" alt="sushi-10" />
+          <h4 class="popular-foods__card-title">R. Fernandez, Advisor</h4>
+
+          <div class="popular-foods__card-details flex-between">
+            <div class="popular-foods__card-rating">
+              <img src="assets/star.svg" alt="star" />
+              <p>4.7</p>
+            </div>
+
+            <p class="popular-foods__card-price">$13.00</p>
+          </div>
+        </article>
+      </div>
+
+    </section>
+
+    <section class="trending" id="food">
+      <section class="trending-sushi">
+        <div class="trending__content" data-aos="fade-right">
+          <p class="sushi__subtitle">Our Direction for now</p>
+  
+          <h3 class="sushi__title">Data Interpretation
+          </h3>
+          <p class="sushi__description">The modules and outsourcing we're using:
+          </p>
+  
+          <ul class="trending__list flex-between">
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="assets/check.svg" alt="check" />
+              </div>
+              <p>OpenAI</p>
+            </li>
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="assets/check.svg" alt="check" />
+              </div>
+              <p>DevinAI</p>
+            </li>
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="assets/check.svg" alt="check" />
+              </div>
+              <p>DALL-E</p>
+            </li>
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="assets/check.svg" alt="check" />
+              </div>
+              <p>Bard</p>
+            </li>
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="assets/check.svg" alt="check" />
+              </div>
+              <p>Azure</p>
+            </li>
+          </ul>
+        </div>
+  
+        <div class="trending__image flex-center">
+          <img src="assets/bar-chart.svg" alt="sushi-5" data-aos="fade-left" /> 
+  
+          <div class="trending__arrow trending__arrow-left">
+            <img src="assets/arrow-vertical.svg" alt="arrow vertical" />
+          </div>
+  
+          <div class="trending__arrow trending__arrow-bottom">
+            <img src="assets/arrow-horizontal.svg" alt="arrow horizontal" />
+          </div>
+        </div>
+
+      </section>
+
+      <div class="trending__discover" data-aos="zoom-in">
+        <p>Directions</p>
+      </div>
+
+      <section class="trending-drinks">
+        <div class="trending__image flex-center">
+          <img src="assets/school.svg" alt="sushi-4" data-aos="fade-right" />
+  
+          <div class="trending__arrow trending__arrow-top">
+            <img src="assets/arrow-horizontal.svg" alt="arrow horizontal" />
+          </div>
+  
+          <div class="trending__arrow trending__arrow-right">
+            <img src="assets/arrow-vertical.svg" alt="arrow vertical" />
+          </div>
+        </div>
+
+        <div class="trending__content" data-aos="fade-left">
+          <p class="sushi__subtitle">Future directions:</p>
+  
+          <h3 class="sushi__title">Education
+          </h3>
+          <p class="sushi__description">Reaching to the middle-school and high-school kids in the Philippines.
+          </p>
+  
+          <ul class="trending__list flex-between">
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="assets/check.svg" alt="check" />
+              </div>
+              <p>Mathematics</p>
+            </li>
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="assets/check.svg" alt="check" />
+              </div>
+              <p>
+                Computer Science</p>
+            </li>
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="assets/check.svg" alt="check" />
+              </div>
+              <p>Physics</p>
+            </li>
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="assets/check.svg" alt="check" />
+              </div>
+              <p>Chemistry</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </section>
+
+    <section class="subscription flex-center" id="services">
+      <h2 data-aos="flip-down">
+        Get our updates straight  <br />
+        to your inbox
+      </h2>
+      <p data-aos="fade-up">Sign up for the Wavish World newsletter</p>
+
+      <div class="subscription__form" data-aos="fade-up">
+        <input type="text" placeholder="Enter your email address"/>
+        <button>Get Started</button>
+      </div>
+    </section>
+
+    <script src="js/script.js" type="module"></script>
+  </body>
+</html>
